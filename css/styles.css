@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+/* Variables */
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --attribution: hsl(228, 45%, 44%);
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+  font-size: 100%;
+}
+
+body {
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-bg);
+}
+
+#card {
+  width: 350px;
+  height: 596px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--card-bg);
+}
+
+.nft {
+  width: 302px;
+  height: 302px;
+  border-radius: 0.625rem;
+}
+
+.descr {
+  padding: 0 1.5rem;
+}
+
+.descr h1 {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.descr p {
+  color: var(--soft-blue);
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  margin: 1rem 0;
+}
+
+.eth {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--cyan);
+}
+
+.clock {
+  font-size: 1rem;
+  color: var(--soft-blue);
+  font-weight: 400;
+  float: right;
+}
+
+svg {
+  position: relative;
+  top: 3px;
+}
+
+/* hr {
+  width: 85%;
+  height: 1px;
+  background-color: var(--line);
+  border: none;
+} */
+
+.creation {
+  width: 85%;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--line);
+}
+.creation img {
+  width: 2.06rem;
+  height: 2.06rem;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+}
+
+.creation span {
+  margin-left: 1rem;
+  color: var(--soft-blue);
+}
+
+.creation span a {
+  color: var(--white);
+}
+/* Attibution section */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--attribution);
+}
