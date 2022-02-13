@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://jean-frontend.github.io/nft-card/)
+- Live Site URL: [(https://jean-frontend.github.io/nft-card/](https://jean-frontend.github.io/nft-card/)
 
 ## My process
 
