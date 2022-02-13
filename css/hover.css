@@ -4,7 +4,7 @@
 }
 
 .nft-view:hover {
-  background-image: url(./images/icon-view.svg);
+  background-image: url("./images/icon-view.svg");
   background-color: rgba(0, 255, 247, 0.5);
   cursor: pointer;
 }
